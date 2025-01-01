@@ -117,14 +117,9 @@
       nushell
       fd
       vscode-extensions.vadimcn.vscode-lldb  # codelldb for VS Code
-
-      # TODO: Uncomment and configure ImageMagick
-      # imagemagick            # Image manipulation tool
-      # lua5_1                 # Lua 5.1 interpreter
-      # luarocks               # Lua package manager
-      # imagemagick-lua        # Lua bindings for ImageMagick
-      # lua51Packages.luarocks-nix
     ];
+
+    environment.shells = with pkgs; [ nushell ];
   };
 }
 
