@@ -115,6 +115,7 @@
       chemacs2
       rustfmt
       nushell
+      starship
       fd
       vscode-extensions.vadimcn.vscode-lldb  # codelldb for VS Code
     ];
